@@ -7,7 +7,6 @@ define('BASE_URI', str_replace('index.php', '', $_SERVER['SCRIPT_NAME']));
 class MY_Controller extends CI_Controller
 {
 
-    protected $langs = array();
 
     public function __construct()
     {
